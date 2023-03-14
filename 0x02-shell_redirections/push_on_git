@@ -1,0 +1,6 @@
+#!/bin/bash
+#run the command below before you commit into git
+#chmod 777 "filename"
+git add .
+git commit -m "$1"
+git push
